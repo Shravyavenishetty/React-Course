@@ -8,3 +8,7 @@
   flex-direction : column;
 }
 
+.welcome-message {
+        color : rgb(120, 120, 120);
+        text-align : center;
+      }
