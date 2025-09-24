@@ -1,6 +1,7 @@
 import axios from 'axios';
 import { formatMoney } from '../../utils/money';
 import { useState } from 'react';
+import CheckmarkIcon from '../../assets/images/icons/checkmark.png';
 
 
 export function Product({ product, loadCart }) {
@@ -61,7 +62,7 @@ export function Product({ product, loadCart }) {
             <div className="product-spacer"></div>
 
             <div className="added-to-cart">
-                <img src="images/icons/checkmark.png" />
+                <img src={CheckmarkIcon} />
                 Added
             </div>
 
