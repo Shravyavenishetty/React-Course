@@ -22,6 +22,7 @@ export function CheckoutPage({ cart }) {
 
     return (
         <>
+        <title>Checkout</title>
             <CheckoutHeader />
 
             <div className="checkout-page">
