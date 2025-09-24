@@ -19,7 +19,7 @@ export function OrdersPage({ cart }) {
     return (
         <>
             <title>Orders</title>
-
+            <link rel="icon" type="image/svg+xml" href="orders-favicon.png" />
             <Header cart={cart} />
 
             <div className="orders-page">
